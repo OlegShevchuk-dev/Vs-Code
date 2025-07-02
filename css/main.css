@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(182, 182, 182, 0.477);
+    height: 500px;
+}
+.sectionInput{
+    color: red;
+    margin: 10px;
+    padding: 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.input{
+    margin: 0px;
+}
+
+.req{
+    margin-top: 12px;
+    outline-color: red;
+    border-color:red ;
+}
+
+.button{
+    cursor: pointer;
+    background-color: rgba(116, 77, 152, 0.827);
+    color: black;
+    border-radius: 3px;
+    border-style: hidden;
+}
+
+.hiden{
+    display: none;
+}
