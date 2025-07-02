@@ -25,9 +25,7 @@ input.oninput = (e) =>{
         console.log("маємо текст");
         input.classList.remove('req');
         label.style.display = "none";
-    }
-    console.log(resVal);
-    
+    }    
     
 };
 
